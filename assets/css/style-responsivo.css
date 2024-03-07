@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    .menu-list {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-list li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block !important;
+    }
+}
