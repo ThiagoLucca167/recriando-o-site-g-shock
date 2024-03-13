@@ -17,6 +17,38 @@
     }
 
     .menu-icon {
-        display: block !important;
+        display: block!important;
     }
+    .dsnonei{
+        display: none!important;
+    }
+}
+@media screen and (max-width: 628px){
+    .dsmin{
+        display: none!important;
+    }
+    .icons .icones a{
+        border: none!important;
+    }
+    .menu .buttonSearch {
+        right: 0px!important;
+        top: 4px!important;
+    }
+    .menu .buttonSearch img {
+        width: 40px!important;
+        height: 40px!important;
+    }
+    .menu .menuInput {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0!important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .imgLogo {
+        width: 174px!important;
+    }
+
+
 }
