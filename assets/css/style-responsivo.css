@@ -1,9 +1,14 @@
 @media screen and (max-width: 768px) {
     .menu-list {
         display: none;
+        position: absolute; /* Alteração da posição */
+        top:26%; /* Posiciona o menu abaixo do cabeçalho */
+        left: 0;
         width: 100%;
-        text-align: center;
+        background-color: #000;
+        z-index: 1; /* Garante que o menu esteja acima do banner */
         flex-direction: column;
+        opacity: 0.7;
     }
 
     .menu-list li {
